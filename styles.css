@@ -1,1 +1,412 @@
-/* Your Code Here! */
+body,html{
+  background-color: #fffbf5;
+  color: #004c45;
+  font-family: 'Work Sans', sans-serif;
+  margin:0%;
+  padding:0%;
+}
+
+.london{
+  background-image: url('https://www.wallpaperflare.com/static/594/442/375/westminster-bridge-grayscale-photo-london-city-wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-attachment: sticky;
+  background-position: center; 
+  height:100%;
+  width:100%;
+  margin:0%;
+  padding:0%;
+
+}
+.banner{
+	color: #004c45;
+	font-family: 'Concert One', cursive;
+	font-weight:400px;
+	margin: 0%;
+	border-bottom: solid;
+	border-width:2px;
+	text-align:center;
+
+}
+.me{
+	margin:0%;
+	font-weight: 400;
+	font-size:75px;
+}
+
+img.dropbtn{
+	height:60px;
+	width:60px;
+	float: left;
+	margin-top:4%;
+	padding:0%;
+	position:absolute;
+}
+.dropnbtn2{
+	height:45px;
+	width:45px;
+	top:-13px;
+	padding:0%;
+	position:absolute;
+	z-index:2;
+	right:-848px;
+}
+.dropbtn {
+  font-family: 'Work Sans', sans-serif;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  background-image:("noun_icon.png");
+  float:left;
+  left:-450px;
+
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-family: 'Work Sans', sans-serif;
+  width:25%;
+  text-align:left;
+  left:-450px;
+  top:70px;
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: 'Work Sans', sans-serif;
+  position:relative;
+
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+
+.welcome{
+	font-weight:bold;
+	font-size:60px;
+	font-family: 'Concert One', cursive;
+	}
+#AM{
+	font-size:40px;
+	font-weight:bold;
+	text-align:center;
+}
+#Bpic{
+	width:40%;
+	height:700px;
+	position:absolute;
+	left:0px;
+	margin-left:5%;
+}
+#chat{
+	position:absolute;
+	right:0px;
+	text-align: center;
+	width:40%;
+	margin-right:10%;
+	margin-top:20%;
+	font-weight:600;
+	font-size:20px;
+}
+#groupMFA{
+	height:500px;
+	width:400px;
+	margin-left:5%;
+}
+.soccerpics{
+	display:inline-block;
+}
+#ME1{
+	height:350px;
+	width:250px;
+	margin-left:34.75%;
+}
+#ST{
+	font-size:40px;
+	font-weight:bold;
+	text-align:center;
+	width:100vw;
+	
+
+}
+#scor{
+	height:400px;
+	width:600px;
+	margin-left:54%;
+	margin-right:5%;
+}
+#ME22{
+	margin-left:5%;
+	margin-top:38%;
+	height:350px;
+	width:450px;
+}
+#MTCG{
+	margin-left:38%;
+	margin-top:38%;
+	height:200px;
+	width:400px;
+}
+#ME3{
+	margin-left:68%;
+	margin-top:38%;
+	height:300px;
+	width:400px;
+	margin-right:5%;
+}
+.dropbtn2 {
+  background-image: ("bounce.png");
+  color: white;
+  padding: 300px;
+  font-size: 300px;
+  border: none;
+  right:0px;
+  text-align:right;
+  position:absolute;
+
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown2 {
+  position: absolute;
+  display: inline-block;
+  text-align:center;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  right:-960px;
+  top:20px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content2 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content2 a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown2:hover .dropdown-content2 {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown2:hover .dropbtn2 {background-color: #3e8e41;}
+
+img{
+	height:45px;
+	width:45px;
+	float: left;
+	margin:0%;
+	padding:0%;
+	position:absolute;
+}
+#CS{
+	font-size:40px;
+	font-weight:bold;
+	text-align:center;
+}
+#PG{
+	font-size:40px;
+	font-weight:bold;
+	text-align:center;
+}
+.louvre{
+	margin-left:8%;
+	height:450px;
+	width:350px;
+
+}
+.door{
+	margin-left:33.25%;
+	height:500px;
+	width:400px;
+}
+.ET{
+	margin-left:62%;
+	height:525px;
+	width:425px;
+	margin-right:5%;
+}
+.xmas{
+	margin-top:35%;
+	margin-left:8%;
+	height:580px;
+	width:480px;
+}
+.swamp{
+	margin-top:37%;
+	margin-left:42.25%;
+	height:450px;
+	width:350px;
+}
+#build{
+	margin-top:38%;
+	margin-left:67.5%;
+	height:450px;
+	width:350px;
+	margin-right:5%;
+}
+.nyc{
+	margin-top:76%;
+	margin-left:8%;
+	height:500px;
+	width:400px;
+}
+.metro{
+	margin-top:76%;
+	margin-left:36%;
+	height:550px;
+	width:450px;
+}
+.city{
+	margin-top:70%;
+	margin-left:67.42%;
+	height:450px;
+	width:350px;
+}
+.tree{
+	margin-top:99%;
+	margin-left:67.42%;
+	height:100px;
+	width:50px;
+}
+/* Dropdown Button */
+.dropbtn3 {
+  background-image: ("CS.png");
+  color: white;
+  padding: 300px;
+  font-size: 300px;
+  border: none;
+  right:0px;
+  text-align:right;
+  position:absolute;
+  right:-800px;
+  top:-70px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown3 {
+  position: absolute;
+  display: inline-block;
+  text-align:center;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content3 {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  right:-1070px;
+  top:-40px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content3 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content3 a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown3:hover .dropdown-content3 {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown3:hover .dropbtn3 {background-color: #3e8e41;}
+
+.dropnbtn3{
+	height:45px;
+	width:45px;
+	top:-13px;
+	padding:0%;
+	position:absolute;
+	z-index:2;
+	right:-970px;
+	top:-84px;
+}
+.projectZZ{
+	display:inline-block;
+}
+.projects{
+	height:400px;
+	width:500px;
+	margin-left:5%;
+	margin-right:5%;
+
+}
+#TG2{
+	margin-left:40%;
+	height:400px;
+	width:500px;
+	
+	margin-right:5%;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
