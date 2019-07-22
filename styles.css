@@ -185,14 +185,14 @@ img.dropbtn{
 
 }
 
-/* The container <div> - needed to position the dropdown content */
+
 .dropdown2 {
   position: absolute;
   display: inline-block;
   text-align:center;
 }
 
-/* Dropdown Content (Hidden by Default) */
+
 .dropdown-content2 {
   display: none;
   position: absolute;
@@ -204,7 +204,7 @@ img.dropbtn{
   top:20px;
 }
 
-/* Links inside the dropdown */
+
 .dropdown-content2 a {
   color: black;
   padding: 12px 16px;
@@ -213,13 +213,13 @@ img.dropbtn{
 
 }
 
-/* Change color of dropdown links on hover */
+
 .dropdown-content2 a:hover {background-color: #ddd;}
 
-/* Show the dropdown menu on hover */
+
 .dropdown2:hover .dropdown-content2 {display: block;}
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
+
 .dropdown2:hover .dropbtn2 {background-color: #3e8e41;}
 
 img{
@@ -294,11 +294,12 @@ img{
 	height:450px;
 	width:350px;
 }
-.tree{
-	margin-top:99%;
+.frida{
+	margin-top:87%;
 	margin-left:67.42%;
-	height:100px;
-	width:50px;
+	height:500px;
+	width:360px;
+	margin-right:5%;
 }
 /* Dropdown Button */
 .dropbtn3 {
@@ -314,14 +315,13 @@ img{
   top:-70px;
 }
 
-/* The container <div> - needed to position the dropdown content */
 .dropdown3 {
   position: absolute;
   display: inline-block;
   text-align:center;
 }
 
-/* Dropdown Content (Hidden by Default) */
+
 .dropdown-content3 {
   display: none;
   position: absolute;
@@ -333,7 +333,7 @@ img{
   top:-40px;
 }
 
-/* Links inside the dropdown */
+
 .dropdown-content3 a {
   color: black;
   padding: 12px 16px;
@@ -341,13 +341,13 @@ img{
   display: block;
 }
 
-/* Change color of dropdown links on hover */
+
 .dropdown-content3 a:hover {background-color: #ddd;}
 
-/* Show the dropdown menu on hover */
+
 .dropdown3:hover .dropdown-content3 {display: block;}
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
+
 .dropdown3:hover .dropbtn3 {background-color: #3e8e41;}
 
 .dropnbtn3{
@@ -377,21 +377,20 @@ img{
 	
 	margin-right:5%;
 }
-/* Style inputs with type="text", select elements and textareas */
+
 input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */  
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  width: 100%; 
+  padding: 12px;  
+  border: 1px solid #004c45; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
 }
 
-/* Style the submit button with a specific background color etc */
 input[type=submit] {
-  background-color: #4CAF50;
+  background-color: #004c45;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -399,15 +398,48 @@ input[type=submit] {
   cursor: pointer;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
+
 input[type=submit]:hover {
   background-color: #45a049;
 }
 
-/* Add a background color and some padding around the form */
+
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: #fffbf5;
   padding: 20px;
+}
+.flo{
+	margin-top:95%;
+	margin-left:7.9%;
+	height:540px;
+	width:400px;
+	margin-right:5%;
+}
+.tree{
+	margin-top:99%;
+	margin-left:37.5%;
+	height:540px;
+	width:400px;
+	margin-right:5%;
+}
+.lake{
+	margin-top:122%;
+	margin-left: 7.9%;
+	height:400px;
+	width:540px;
+	margin-right:5%;
+}
+.dog{
+	margin-top:122%;
+	margin-left:47%;
+	height:350px;
+	width:250px;
+}
+.rocks{
+	margin-top:110%;
+	margin-left:66%;
+	height:500px;
+	width:400px;
 }
 
