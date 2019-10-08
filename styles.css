@@ -7,13 +7,16 @@ body,html{
 }
 
 .london{
-  background-image: url('https://www.wallpaperflare.com/static/594/442/375/westminster-bridge-grayscale-photo-london-city-wallpaper.jpg');
+  /*background-image: url("https://media.giphy.com/media/SnI9JZGHU9vb2/source.gif");*/
   background-repeat: no-repeat;
   background-attachment: sticky;
   background-position: center; 
-  height:100%;
-  width:100%;
-  margin:0%;
+  height:80%;
+  width:96%;
+  margin-left:1%;
+  margin-right:5%;
+  margin-top:1%;
+  margin-bottom:0%;
   padding:0%;
 
 }
@@ -448,4 +451,17 @@ input[type=submit]:hover {
 	margin-right:25%;
 	width:50%;
 }
+.wel{
+	margin:0%;
+	font-weight: 400;
+	font-size:150px;
+	font-weight:bold;
+	font-family: 'Concert One', cursive;
+	color:white;
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
 
+© 2019 GitHub, Inc.
